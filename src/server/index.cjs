@@ -203,3 +203,6 @@ app.get('/api/projects', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+// Export for Vercel
+module.exports = app;
